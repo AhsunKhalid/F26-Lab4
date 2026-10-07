@@ -7,3 +7,11 @@
 # Usage: ./lab4d.py
 
 # Follow the instructions from readme.md.
+
+def compute(num1,num2,sym1):
+    if sym1=="-":
+        return num1-num2
+    elif sym1=="*":
+        return num1*num2
+    else:
+        return num1+num2
