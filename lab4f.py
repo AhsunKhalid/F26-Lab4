@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: AHSUN KHALID
+# Date: 07/10/2026
 # Purpose: Practice variable number of arguments with *args
 # Usage: ./lab4f.py
 

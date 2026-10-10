@@ -10,7 +10,17 @@
 # @Function definition: add definition here
 # @param: write parameters here
 # @return: write return value here 
-
 # TO DO 2: define the function with name `is_even`.
-
 # TO DO 3: Call the function `is_even`.
+
+def is_even(numlist):
+    for num in numlist:
+        if num % 2 == 0:
+            result = True
+            break
+        else:
+            result = False
+    return result
+
+num = [1,2,1,1,1,1]
+print(is_even(num))
