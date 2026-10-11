@@ -7,13 +7,12 @@
 # Usage: ./lab4d.py
 
 # Follow the instructions from readme.md.
-
 def compute(num1,num2,sym1):
-    if sym1=="-":
+    if sym1=="sub":
         return num1-num2
-    elif sym1=="*":
+    elif sym1=="multi":
         return num1*num2
-    elif sym1=="/":
+    elif sym1=="divi":
         return num1/num2
     else:
         return num1+num2

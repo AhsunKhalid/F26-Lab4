@@ -14,7 +14,7 @@ def get_initials(*args):
         initials.append(name[0])
     return initials
 def main():
-    result=get_initials("Bushra","Alex","Liza")
+    result=get_initials("Alice","Bob","Charlie","David")
     print(result)
 
 if __name__=="__main__":
