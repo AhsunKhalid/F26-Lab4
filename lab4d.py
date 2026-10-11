@@ -13,5 +13,16 @@ def compute(num1,num2,sym1):
         return num1-num2
     elif sym1=="*":
         return num1*num2
+    elif sym1=="/":
+        return num1/num2
     else:
         return num1+num2
+
+def main():
+    num1=int(input("Please enter first number: "))
+    num2=int(input("Please enter second number: "))
+    sym1=(input("Please enter operation (+,-,*,/): "))
+    result = compute(num1,num2,sym1)
+    print(result)
+if __name__ == "__main__":
+    main()
